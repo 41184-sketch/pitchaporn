@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<title>work8 6/9 05 html layout</title>
+<meta charset="utf-8">
+<style>
+*{
+	box-sizing:border-box;
+}
+.butterbear{
+	width:1024px; 
+	margin:0 auto;
+	box-shadow:0px 5px 10px 0px rgba(0,0,0,.4);
+	background:PapayaWhip;
+}
+header{
+	background-image:url(images/header.jpg);
+	height:200px;
+
+}
+nav{
+	float:left;
+	width:25%;
+	background-color:Brown;
+	height:auto;
+
+}
+article{
+	float:left;
+	width:75%;
+	background-color:LightYellow;
+	height:auto;
+	padding-left:20px;
+
+}
+section::after{
+	content:"";
+	display:table;
+	clear:both;
+
+
+}
+footer{
+	background-color:Goldenrod;
+	padding:30px;
+	text-align:center;
+}
+a:link{
+	color:white; 
+	text-decoration:none;
+	background-color:NavajoWhite;
+	padding:10px 25px;
+	display:inline-block;
+	width:100%;
+	text-align:left;
+}
+a:hover{
+	color:red;
+	background-color: yellow;
+	
+}
+a:active{color:LemonChiffon;}
+a:visite{color:black;}
+
+ul{
+	list-style-type:none;
+	magin:0px;
+	padding:0px;
+
+}
+
+</style>
+</head>
+<body>
+<div class="butterbear">
+<header>
+</header>
+<section>
+<nav>
+<ul> 
+<li><a href="index.html">ภูมิประเทศและภูมิอากาศของเอเชียตะวันออกเฉียงใต้</a></li>
+<li><a href="p2.html">ประเทศสมาชิกและลักษณะเด่นของแต่ละประเทศ</a></li>
+<li><a href="p3.html">วัฒนธรรมและประเพณีท้องถิ่น</a></li>
+<li><a href="p4.html">เศรษฐกิจและทรัพยากรธรรมชาติในภูมิภาค</a></li>
+<li><a href="p5.html">ความร่วมมือระหว่างประเทศ</a></li>
+</ul>
+</nav>
+<article>
+<h2 >ความร่วมมือระหว่างประเทศ</h2>
+<img src="images/p5.jpg"width="400">
+<p>ประเทศในเอเชียตะวันออกเฉียงใต้ร่วมมือกันภายใต้กรอบของ “สมาคมประชาชาติแห่งเอเชียตะวันออกเฉียงใต้” หรือ อาเซียน (ASEAN) ก่อตั้งเมื่อปี พ.ศ. 2510 เพื่อส่งเสริมความร่วมมือทางเศรษฐกิจ สังคม การศึกษา และความมั่นคง อาเซียนช่วยให้ประเทศสมาชิกสามารถเจรจาทางการค้า ร่วมมือในด้านพลังงาน สิ่งแวดล้อม และวัฒนธรรมได้อย่างมีประสิทธิภาพมากขึ้น ปัจจุบัน อาเซียนมีบทบาทสำคัญในเวทีโลก และเป็นหนึ่งในภูมิภาคที่มีการเติบโตทางเศรษฐกิจอย่างต่อเนื่อง
+</p>
+
+</article>
+</section>
+<footer>
+&copy;นัฐพล สาเครือ
+</footer>
+
+</body>
+</html>
